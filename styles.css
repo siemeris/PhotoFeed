@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(128, 128, 128, 0.364);
+    margin:0;
+}
+div {
+    box-sizing:border-box;
+}
+header {
+    text-align: center;
+    background-color: white;
+    padding:10px;
+}
+header h1{
+    margin:0;
+}
+div.box {
+    background-color: white;
+    margin-top: 40px;
+}
+div.box img{
+    width:100%;
+}
+div.box h2, div.box p{
+    padding:10px;
+    margin:0;
+}
+div.box .box-header div:first-child{
+    display:inline-block;
+    width: 80%;
+}
+div.box .box-header div:last-child{
+    display:inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: grey;
+}
+div.container{
+    width:600px;
+    margin:auto;
+}
